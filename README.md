@@ -9,10 +9,10 @@ In this project I created for an undacity nanodegree python code to provide info
 
 Basically, the user starts the code in the command line using python bikshare.py and simply response to the questions promted. After receiving some information on the data for a specific city the user can also see the raw data if she/he is interested. 
 
-On a technical level the python code leverages the input command which allows it to work with user input in the terminal. The while command was also cruucial, especially at the end when different True False conditions were helpufl in allowing reoccuring input-requests.
+On a technical level the python code leverages the input command which allows it to work with user input in the terminal. The while command was also crucial, especially at the end when different True False conditions were helpful in allowing reoccuring input-requests.
 
 ### Files used
-Include the files used
+Include files in this project were csv files with data about bikesharing in Chicago, Washington and New York. Furhtermore, this README.mf file is used for documentation and one addtional file Sources, which is not on Github because I included the information now below under Credits.
 
 ### Credits
 I would like to thank the udacity team which created the intro nano degree for inspiring me to do this project (and for teaching me the necessary basic skills) https://www.udacity.com
