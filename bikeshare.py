@@ -18,6 +18,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data! \n ')
+
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city = input('Would you like to see data fro chicago, new york city, or washington? \n ').lower()
     # the .lower() makes sure that users can enter in small or capt letters
@@ -202,7 +203,7 @@ def raw_data(df, city):
         5 lines of raw data consecutively
     """
     print('I hope that was interesting. \n ')
-    # HINT: use df.iloc[]
+
     def valid_data(response):
         if response.lower() in ['yes', 'no']:
             return True
@@ -244,7 +245,6 @@ def raw_data(df, city):
                 print(df.iloc[start:end])
             elif show_more.lower() == 'no':
                 break  
-# source: https://www.quora.com/How-do-I-repeat-a-program-again-and-again-using-loop-in-Python
 
 def main():
     while True:
