@@ -9,6 +9,8 @@ In this project I created for an undacity nanodegree python code to provide info
 
 Basically, the user starts the code in the command line using python bikshare.py and simply response to the questions promted. After receiving some information on the data for a specific city the user can also see the raw data if she/he is interested. 
 
+On a technical level the python code leverages the input command which allows it to work with user input in the terminal. The while command was also cruucial, especially at the end when different True False conditions were helpufl in allowing reoccuring input-requests.
+
 ### Files used
 Include the files used
 
