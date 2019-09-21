@@ -24,7 +24,7 @@ def get_filters():
     # the .lower() makes sure that users can enter in small or capt letters
 
     while city not in ['chicago', 'new york city', 'washington']:         
-        # to check if response is valid
+        # to check the validity of the user response
         
                 print('Please, enter a valid city: chicago, new york city, washington \n ')
                 city = input('Choose again: chicago, new york, or washington \n ').lower()
